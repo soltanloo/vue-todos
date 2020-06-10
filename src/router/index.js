@@ -27,6 +27,10 @@ Vue.use(VueRouter)
         isMain: true,
       },
     },
+    {
+      path :'*',
+      redirect: '/'
+    }
   ]
 
 const router = new VueRouter({
