@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="todo">
     <md-card :md-with-hover="!todo.done">
         <md-card-area md-inset>
           <md-card-header>
@@ -107,14 +107,16 @@ export default {
   @import "~vue-material/dist/components/MdTooltip/theme";
 
   .md-card {
-    min-width: 200px;
+    width: 240px;
     height: fit-content;
-    max-width: 300px;
     overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 8px 8px;
+  }
+  .todo {
+    flex: 1 1 0;
   }
   .md-card-area {
     flex-grow: 1;
