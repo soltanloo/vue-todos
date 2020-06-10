@@ -117,7 +117,7 @@ export default {
 
   .md-drawer {
     width: auto;
-    max-width: calc(100vw - 125px);
+    max-width: 20vw;
   }
 
   .md-list-item-text {
